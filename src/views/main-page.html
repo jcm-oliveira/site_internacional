@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>International Federation of Crhistan Congregations</title>
 
-    <link rel="stylesheet" href="/css/main-page.css">
-    <link rel="stylesheet" href="/css/nav-menu.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/src/css/main-page.css">
+    <link rel="stylesheet" href="/src/css/nav-menu.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-</head>
-<body>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  </head>
+
+<body>
 
 <!----------------------------------------HEADER------------------------------------------------>  
 <div id="header">
@@ -27,7 +31,7 @@
   </div>
 
   <div id="header-logo">
-    <img src="/img/logo-international.png" alt="logo-internacional" width="200">
+    <img src="/src/img/logo-international.png" alt="logo-internacional" width="200">
   </div>
   
   <div id="icon-bar">
@@ -62,30 +66,30 @@
 
   <li class="menu-separator"><a>|</a></li>
          
-          <li onclick="LoadMenuOption()" id="2" class="item-menu"><a href="#">Associates</a></li>
+          <li onclick="LoadMenuOption()" id="associates" class="item-menu"><a href="#">Associates</a></li>
         
   <li class="menu-separator"><a>|</a></li>
 
           <li><a href="#">Our Mission</a>
             <ul class="submenu-box">
-              <li onclick="CarregarRotinaMenu()" id="9" class="item-submenu">Faith and Doctrine</li>
-              <li onclick="CarregarRotinaMenu()" id="10" class="item-submenu">Administrative Principles</li>
-              <li onclick="CarregarRotinaMenu()" id="11" class="item-submenu">Teachings</li>
-              <li onclick="CarregarRotinaMenu()" id="12" class="item-submenu">Aperfeiçoamentos</li>       
+              <li onclick="LoadMenuOption()" id="9" class="item-submenu">Faith and Doctrine</li>
+              <li onclick="LoadMenuOption()" id="10" class="item-submenu">Administrative Principles</li>
+              <li onclick="LoadMenuOption()" id="11" class="item-submenu">Teachings</li>
+              <li onclick="LoadMenuOption()" id="12" class="item-submenu">International Conventions</li>       
             </ul>
           </li>
 
   <li class="menu-separator"><a>|</a></li>
 
-          <li onclick="LoadMenuOption()" id="4" class="item-menu"><a href="#">Worship services</a></li>
+          <li onclick="LoadMenuOption()" id="worship-services" class="item-menu"><a href="#">Worship Services</a></li>
 
   <li class="menu-separator"><a>|</a></li>
 
-          <li onclick="LoadMenuOption()" id="1" class="item-menu"><a href="#">Announcements</a></li>
+          <li onclick="LoadMenuOption()" id="announcements" class="item-menu"><a href="#">Announcements</a></li>
 
   <li class="menu-separator"><a>|</a></li>
 
-          <li onclick="LoadMenuOption()" id="1" class="item-menu"><a href="#">Offers</a></li>
+          <li onclick="LoadMenuOption()" id="offers" class="item-menu"><a href="#">Offers</a></li>
         </ul>
       </div>
     </nav> 
@@ -93,18 +97,8 @@
 <!------------------------------------ROUTINES CALL--------------------------> 
 
 <main>
-
-  <h1>International Federation of Christian Congregations</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
   <div id="page-content"></div>           
-  <script src="/js/nav-menu.js"></script>
+  <script src="/src/js/nav-menu.js"></script>
 </main>
 
 <!------------------------------------FOOTER-------------------------->   
