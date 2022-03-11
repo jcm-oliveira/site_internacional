@@ -45,6 +45,13 @@ function qualEndereco(rotine){
         case 'worship-services': carregarTela("/src/views/worship-services.html"); break;
         case 'announcements': carregarTela("/src/views/announcements.html"); break;
         case 'offers': carregarTela("/src/views/offers.html"); break;
+        //About us
+            case 'the-beginning': carregarTela("/src/views/about-us/the-beginning.html"); break;
+            case 'organization': carregarTela("/src/views/about-us/organization.html"); break;
+            case 'statistics': carregarTela("/src/views/about-us/statistics.html"); break;
+            case 'our-history': carregarTela("/src/views/about-us/our-history.html"); break;
+        //Our Mission
+
         default: alert("Esta tela ainda não foi criada..."); break;
         }
 }
