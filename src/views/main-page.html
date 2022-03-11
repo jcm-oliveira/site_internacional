@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Federation of Crhistan Congregations</title>
+
+    <link rel="stylesheet" href="/css/main-page.css">
+    <link rel="stylesheet" href="/css/nav-menu.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<!----------------------------------------HEADER------------------------------------------------>  
+<div id="header">
+  
+  
+  <div id="title-page">
+    INTERNATIONAL FEDERATION <br> OF CRHISTIAN CONGREGATIONS
+  </div>
+
+  <div id="header-logo">
+    <img src="/img/logo-international.png" alt="logo-internacional" width="200">
+  </div>
+  
+  <div id="icon-bar">
+    <i class="fas fa-search"></i>    
+    <i class="fas fa-globe-americas"></i>
+    <i class="fas fa-keyboard"></i>
+    <i class="fas fa-lock"></i>
+  </div>
+ 
+</div>
+<!----------------------------------------MENU MOBILE-------------------------------------------->  
+              
+<input type="checkbox" id="bt_menu">
+<label for="bt_menu">&#9776;</label>
+
+ <!----------------------------------------DESKTOP MENU------------------------------------------> 
+ <nav class="menu">
+    <div id="group-menu">                 
+       <ul>
+          <li onclick="LoadMenuOption()" id="1" class="item-menu"><a href="#">Home</a></li>
+          
+   <li class="menu-separator"><a>|</a></li>
+
+          <li><a href="#">About Us</a>
+            <ul class="submenu-box">
+              <li onclick="LoadMenuOption()" id="1" class="item-submenu">The Beginning</li>
+              <li onclick="LoadMenuOption()" id="2" class="item-submenu">Organization</li>
+              <li onclick="LoadMenuOption()" id="3" class="item-submenu">Statistics</li>
+              <li onclick="LoadMenuOption()" id="4" class="item-submenu">Our History</li>    
+            </ul>
+          </li>
+
+  <li class="menu-separator"><a>|</a></li>
+         
+          <li onclick="LoadMenuOption()" id="2" class="item-menu"><a href="#">Associates</a></li>
+        
+  <li class="menu-separator"><a>|</a></li>
+
+          <li><a href="#">Our Mission</a>
+            <ul class="submenu-box">
+              <li onclick="CarregarRotinaMenu()" id="9" class="item-submenu">Faith and Doctrine</li>
+              <li onclick="CarregarRotinaMenu()" id="10" class="item-submenu">Administrative Principles</li>
+              <li onclick="CarregarRotinaMenu()" id="11" class="item-submenu">Teachings</li>
+              <li onclick="CarregarRotinaMenu()" id="12" class="item-submenu">Aperfeiçoamentos</li>       
+            </ul>
+          </li>
+
+  <li class="menu-separator"><a>|</a></li>
+
+          <li onclick="LoadMenuOption()" id="4" class="item-menu"><a href="#">Worship services</a></li>
+
+  <li class="menu-separator"><a>|</a></li>
+
+          <li onclick="LoadMenuOption()" id="1" class="item-menu"><a href="#">Announcements</a></li>
+
+  <li class="menu-separator"><a>|</a></li>
+
+          <li onclick="LoadMenuOption()" id="1" class="item-menu"><a href="#">Offers</a></li>
+        </ul>
+      </div>
+    </nav> 
+
+<!------------------------------------ROUTINES CALL--------------------------> 
+
+<main>
+
+  <h1>International Federation of Christian Congregations</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  <div id="page-content"></div>           
+  <script src="/js/nav-menu.js"></script>
+</main>
+
+<!------------------------------------FOOTER-------------------------->   
+
+<footer>
+  <div id="footer">
+    <h4>International Federation of Christian Congregations</h4><br>
+    All Rights Reserved ®  
+  </div>
+</footer>
+
+</body>
+</html>

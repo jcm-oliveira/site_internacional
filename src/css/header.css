@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+* {    
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+
+
+/*-----------------------*/
+/*HEADER BOX ORGANIZATION*/
+/*-----------------------*/
+
+#header {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "title-page header-logo icon-bar";
+    grid-area: header;
+    flex-wrap: wrap;
+}
+
+/*------------------------*/
+/*INTERNAL BOXES ON HEADER*/
+/*------------------------*/
+#title-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    font-size: 22px;
+    color: rgb(133, 136, 136);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#header-logo{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+}
+
+#icon-bar {
+    display: flex;
+    align-items: center; 
+    justify-content:flex-end;
+    padding: 10px 20px 10px 20px;
+}
+
+i {
+    padding: 8px;
+    font-size: 24px;
+    color: rgb(20, 52, 94);
+  }
+
+/*----------------------------------*/
+/* RESPONSIVE EFECT TO MOBILE DEVICES */
+/*----------------------------------*/
+
+@media(max-width: 1000px) {
+
+    #header {    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 0.2fr;
+    grid-template-areas: "header";
+    grid-area: header;
+    }
+
+    #title-page {
+        justify-content: center;
+        text-align:center;
+    }
+    
+    #header-logo{
+        padding: 15px
+    }
+    
+    #icon-bar {
+        justify-content: center;
+    }
+
+    i {
+        padding: 15px;
+        font-size: 30px;
+        color: rgb(20, 52, 94);
+      }
+
+}

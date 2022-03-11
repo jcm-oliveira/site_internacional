@@ -1,0 +1,9 @@
+#footer {
+    background-color:rgb(205,212,220);
+    height: 100px;
+    text-align:center;
+    padding: 30px;
+    border-top: 5px solid rgb(3,61,96);
+    color:rgb(3,61,96);
+    margin-top: 20px;
+}
