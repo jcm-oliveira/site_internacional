@@ -8,6 +8,7 @@
 
       <link rel="stylesheet" href="/src/css/main-page.css">
       <link rel="stylesheet" href="/src/css/nav-menu.css">
+      <link rel="stylesheet" href="/src/css/icon-menu.css">
       <link rel="stylesheet" href="/src/css/header.css">
       <link rel="stylesheet" href="/src/css/footer.css">
     
@@ -26,21 +27,48 @@
   <div id="header">
 
       <div id="logo-bar">
+
+        <!----------------------------------------Title Page------------------------------------------------>  
         <div id="title-page">
           <span id="text-title-page">INTERNATIONAL FEDERATION <br> OF CRHISTIAN CONGREGATIONS</span>
         </div>
-
+        <!----------------------------------------Header-logo------------------------------------------------>  
         <div id="header-logo">
           <img src="/src/img/logo-international.png" alt="logo-internacional" width="200">
           <span id="text-logo">CRHISTIAN <br> CONGREGATION</span>
         </div>
-        
-        <div id="icon-bar">
-          <i class="fas fa-search"></i>    
-          <i class="fas fa-globe-americas"></i>
-          <i class="fas fa-keyboard"></i>
-          <i class="fas fa-lock"></i>
-        </div>
+       <!-------------------------------------------Icon bar------------------------------------------------->  
+        <nav class="icon-bar">
+          <div id="group-menu">                 
+            <ul>
+              
+              <li onclick="LoadMenuOption()" class="item-icon-menu"><i class="fas fa-search"></i></li>
+              
+              <li><a href="#"><i class="fas fa-globe-americas"></i></a>
+                <ul class="icon-submenu-box">
+                  <li onclick="LoadMenuOption()" class="item-icon-menu">Brasil</li>
+                  <li onclick="LoadMenuOption()" class="item-icon-menu">España</li>
+                  <li onclick="LoadMenuOption()" class="item-icon-menu">France</li>
+                  <li onclick="LoadMenuOption()" class="item-icon-menu">Italia</li>    
+                </ul>              
+              </li>
+
+              <li><a href="#"><i class="fas fa-keyboard"></i></a>
+                <ul class="icon-submenu-box">
+                  <li onclick="LoadMenuOption()" class="item-icon-menu">English</li>
+                  <li onclick="LoadMenuOption()" class="item-icon-menu">Español</li>
+                  <li onclick="LoadMenuOption()" class="item-icon-menu">Français</li>
+                  <li onclick="LoadMenuOption()" class="item-icon-menu">Português</li>    
+                </ul>
+              </li>
+              
+              <li onclick="LoadMenuOption()" class="item-icon-menu"><i class="fas fa-lock"></i></li>
+
+            </ul>
+          </div>
+        </nav> 
+
+     
       </div>
 
   <!----------------------------------------MENU MOBILE-------------------------------------------->  

@@ -1,9 +1,3 @@
-* {    
-    margin: 0px;
-    padding: 0px;
-    font-family: verdana;
-}
-
 /*------------*/
 /*DESKTOP MENU*/
 /*------------*/
@@ -124,13 +118,16 @@ label[for="bt_menu"]{
     }
     
     #bt_menu:checked ~ .menu {
-        margin-left: 0;              
+        margin-left: 0;
+        height: auto;
+        display: flex;        
     }
 
     .menu {
         margin-top: 5px;
         margin-left: -100%;
         transition: all .4s;
+        display: none;
     }
 
     .menu li:hover {

@@ -1,19 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 
-* {    
-    margin: 0px;
-    padding: 0px;
-    font-family: verdana;
-}
-
 span{
     font-family: 'Cormorant Garamond', serif;   
 }
 
 
 /*-----------------------*/
-/*HEADER BOX ORGANIZATION*/
+/*HEADER ORGANIZATION*/
 /*-----------------------*/
 
 #logo-bar {    
@@ -86,7 +80,7 @@ i {
     }
     
     #header-logo{
-        padding: 15px
+        padding: 15px;
     }
     
     #icon-bar {
