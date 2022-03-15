@@ -8,11 +8,6 @@
 /*DESKTOP MENU*/
 /*------------*/
 
-nav {
-    display: flex;
-    justify-content: center;
-}
-
 .menu li.menu-separator {
     margin: 0px;
     padding: 10px 0px;
@@ -20,6 +15,8 @@ nav {
 }
 
 .menu {
+    display: flex;
+    justify-content: center;
     width: 100%;
     border-top: 2px rgb(187, 190, 190) solid;
     border-bottom: 2px rgb(187, 190, 190) solid;
@@ -127,8 +124,9 @@ label[for="bt_menu"]{
     }
     
     #bt_menu:checked ~ .menu {
-        margin-left: 0;
+        margin-left: 0;              
     }
+
     .menu {
         margin-top: 5px;
         margin-left: -100%;

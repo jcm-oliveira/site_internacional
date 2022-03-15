@@ -16,7 +16,7 @@ span{
 /*HEADER BOX ORGANIZATION*/
 /*-----------------------*/
 
-#header {    
+#logo-bar {    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -72,7 +72,7 @@ i {
 
 @media(max-width: 1000px) {
 
-    #header {    
+    #logo-bar {    
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 0.2fr;
