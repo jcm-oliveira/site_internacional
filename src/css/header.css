@@ -20,7 +20,7 @@ span{
 }
 
 /*------------------------*/
-/*INTERNAL BOXES ON HEADER*/
+/*--------DESKTOP---------*/
 /*------------------------*/
 #title-page {
     display: flex;
@@ -61,7 +61,7 @@ i {
   }
 
 /*----------------------------------*/
-/* RESPONSIVE EFECT TO MOBILE DEVICES */
+/* --------MOBILE DEVICES ----------*/
 /*----------------------------------*/
 
 @media(max-width: 1000px) {
