@@ -46,6 +46,13 @@ span{
     padding: 10px 20px 10px 20px;
 }
 
+#text-logo {
+    position: absolute;
+    font-family: times, "Times New Roman",;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 #icon-bar {
     display: flex;
     align-items: center; 
