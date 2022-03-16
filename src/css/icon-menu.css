@@ -6,7 +6,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .icon-bar ul  {
@@ -15,10 +15,17 @@
     }
 
 .icon-bar ul li {
-    padding: 8px;
     float: left;
     font-size: 16px;
     cursor: pointer;
+}
+
+li.icon-menu {
+    text-align: center;
+    align-items: center;
+    padding:10px;
+    width:30px;
+    height:34px;
 }
 
 li.item-icon-menu {
@@ -39,6 +46,11 @@ a {
     text-decoration: none;
     color: rgb(13, 34, 59);
 }
+
+i {
+    font-size: 24px;
+    color: rgb(20, 52, 94);
+  }
 
 #group-menu{
     display: flex;
@@ -84,18 +96,30 @@ a {
     .icon-bar li:hover {
         background-color: white;
     }
-    .icon-bar ul li {
-        
-    }
+
     .icon-bar ul ul {
         position: static;
         overflow: hidden;
         max-height: 0;
         transition: all .4s;
-        }
+    }
+
     .icon-bar ul li:hover ul {
         height: auto;
         max-height: 200px;
     }
 
+    i {
+        font-size: 30px;
+      }
+    
+    li.icon-menu {
+        display: inline;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding:10px;
+        width:70px;
+        height:34px;
+    }
 }
