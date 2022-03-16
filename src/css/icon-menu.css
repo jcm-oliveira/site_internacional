@@ -29,12 +29,11 @@ li.icon-menu {
 }
 
 li.item-icon-menu {
-    display: block;
     text-decoration: none;
     text-align: left;
     color: rgb(13, 34, 59);
     cursor: pointer;
-    padding: 10px;
+    padding:6px 10px;
     width: auto;
 }
 
@@ -100,7 +99,7 @@ i {
 
     .icon-bar ul li:hover ul {
         height: auto;
-        max-height: 200px;
+        /* max-height: 200px; */
     }
 
     i {
@@ -114,4 +113,15 @@ i {
         height:34px;
     }
 
+}
+
+/*----------------------------------*/
+/*--------COUNTRY MENU------------- */
+/*----------------------------------*/
+.img-icon-flag{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
 }
