@@ -33,7 +33,9 @@ li.item-icon-menu {
     text-decoration: none;
     text-align: left;
     color: rgb(13, 34, 59);
-    cursor: pointer;  
+    cursor: pointer;
+    padding: 10px;
+    width: auto;
 }
 
 .icon-submenu-box{
@@ -87,21 +89,13 @@ i {
 @media(max-width: 1000px) {
 
     .icon-bar {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
-        align-items: center;
-        float:none; 
+        /* float:none;  */
     }
 
     .icon-bar li:hover {
         background-color: white;
-    }
-
-    .icon-bar ul ul {
-        position: static;
-        overflow: hidden;
-        max-height: 0;
-        transition: all .4s;
     }
 
     .icon-bar ul li:hover ul {
@@ -113,13 +107,11 @@ i {
         font-size: 30px;
       }
     
-    li.icon-menu {
-        display: inline;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+    li.icon-menu {        
         padding:10px;
+        margin-bottom: 20px;
         width:70px;
         height:34px;
     }
+
 }
