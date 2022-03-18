@@ -1,0 +1,137 @@
+
+/*----------------------*/
+/*AGRUPAMENTO DOS CAMPOS*/
+/*----------------------*/
+
+fieldset {
+    margin: 5px 10px 10px 0px;
+    padding: 0px;
+    border: 0;
+    width: 100%;
+}
+
+/*------------------*/
+/*CAMPOS LADO A LADO*/
+/*------------------*/
+
+fieldset.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*--------------------------*/
+/*CAMPOS UM EMBAIXO DO OUTRO*/
+/*--------------------------*/
+
+fieldset.block {
+    display: block;
+}
+
+label {
+    font-size: 15px;
+    margin: 1px 10px 10px 5px;
+    color: bold #000000;  
+}
+
+input {
+    padding: 6px;
+    margin: 1px 5px 5px 5px;
+    box-sizing: border-box;
+    border: 1px solid #a8a7a7;
+    border-radius: 4px;
+    width: 100%;    
+}
+
+textarea {
+    padding: 6px;
+    margin: 1px 5px 5px 5px;
+    box-sizing: border-box;
+    border: 1px solid #a8a7a7;
+    border-radius: 4px;
+    width: 100%;  
+}
+
+/* -------------------------------------------------
+Tipos de caixas de inputs:
+    Small: 1/4 da linha
+    Medium:2/4 da linha
+    Large: 3/4 da linha
+    Extralarge: 4/4 da linha
+----------------------------------------------------*/
+
+/*-------------------------*/
+/*TAMANHO DA CAIXA NA LINHA*/
+/*-------------------------*/
+
+div.SmallInput {
+    width: 25%;
+    min-width: 200px;   
+}
+
+div.MediumInput {
+    width: 50%;
+    min-width: 200px;    
+}
+
+div.LargeInput {
+    width: 75%;
+    min-width: 200px;    
+}
+
+div.ExtralargeInput {
+    width: 100%;
+    min-width: 200px;    
+}
+
+div.DescriptionInput {
+    width: 100%;
+    min-width: 200px;
+}
+
+div.ColorInput{
+    width: 20%;
+    min-width: 200px;
+}
+
+div.FileInput{
+    width: 90%;
+    min-width: 200px;
+}
+
+/*-------------------------*/
+/*TAMANHO DO CAMPO NA CAIXA*/
+/*-------------------------*/
+
+input.SmallInput {
+    width: 98%;
+}
+
+input.MediumInput {
+    width: 98%;    
+}
+
+input.LargeInput {
+    width: 98%;    
+}
+
+input.ExtralargeInput {
+    width: 100%;    
+}
+
+textarea.DescriptionInput {
+     width: 98.5%;
+}
+
+input.ColorInput{
+    width: 100%;
+}
+
+input.FileInput{
+    width: 100%;
+}
+
+div.rotina {
+    text-align: center;
+    font-size: 15px;
+    margin: 30px;
+}

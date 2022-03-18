@@ -1,0 +1,62 @@
+button {
+    display: inline;
+    width: 25%;
+    padding: 10px;
+    margin: 20px 10px;
+    border: 0px;
+    border-radius: 4px;    
+    font-size: 15px;
+    transition: background-color .2s;
+    cursor: pointer;    
+}
+
+/*----------*/
+/*BAR BUTTON*/
+/*----------*/
+
+div.BarButton {
+    background-color: #e9e7e7;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-top: 1px solid #d1d0d0;
+}
+
+/*-----------*/
+/*SAVE BUTTON*/
+/*-----------*/
+
+button.SaveButton {
+    background-color: #35a16b;
+    color: #ffffff;
+}
+
+button.SaveButton:hover {
+    background-color: #1c5739;
+}
+
+/*-------------*/
+/*CANCEL BUTTON*/
+/*-------------*/
+
+button.CancelButton {
+    background-color: #afb1b0;
+    color: #030303;
+}
+
+button.CancelButton:hover {
+    background-color: #818181;
+}
+
+/*-------------*/
+/*INSERT BUTTON*/
+/*-------------*/
+
+button.InsertButton {
+    background-color: #35a16b;
+    color: #ffffff;
+}
+
+button.InsertButton:hover {
+    background-color: #1c5739;
+}
