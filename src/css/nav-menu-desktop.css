@@ -36,6 +36,7 @@ li.item-submenu {
     text-align: left;
     color: rgb(13, 34, 59);
     cursor: pointer;
+    z-index: 0;
     
 }
 
