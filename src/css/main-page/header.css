@@ -5,6 +5,9 @@ span{
     font-family: 'Cormorant Garamond', serif;   
 }
 
+.header {
+    z-index: 10;
+}
 
 /*-----------------------*/
 /*HEADER ORGANIZATION*/

@@ -30,6 +30,17 @@ function LoadMenuOption(){
     
 }
 
+//-----------------------------------------------------------
+//QUANDO UM ICONE É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO MENU
+//-----------------------------------------------------------
+
+function LoadIconMenu(){
+    
+    document.getElementById('group-icon-menu').addEventListener('click', function(e){
+        
+    qualEndereco(e.target.id)}, {once:true})
+    
+}
 
 //-------------------------------------------------------------------------------------------------
 //DE ACORDO COM O ID CAPTURADO NA FUNÇÃO "CarregarRotina" ATRIBUI O ENDEREÇO DA PÁGINA A SER ABERTA
@@ -37,7 +48,7 @@ function LoadMenuOption(){
 
 function qualEndereco(rotine){
 
-    console.log(rotine)
+    
    
     switch(rotine){
         case 'home': carregarTela("/src/views/public-pages/home.html"); break;
@@ -56,8 +67,11 @@ function qualEndereco(rotine){
             case 'international-conventions': carregarTela("/src/views/public-pages/our-mission/international-conventions.html"); break;
             case 'teachings': carregarTela("/src/views/public-pages/our-mission/teachings.html"); break;
 
+        case 'login-page': carregarTela("/src/views/public-pages/login-page.html"); break;
+
         default: alert("Esta tela ainda não foi criada..."); break;
         }
+        console.log(rotine)
 }
 
 //-------------------------------------------------------

@@ -25,7 +25,7 @@
   <body>
 
   <!----------------------------------------HEADER------------------------------------------------>  
-  <div id="header">
+  <div class="header">
 
       <div id="logo-bar">
 
@@ -39,13 +39,13 @@
           <span id="text-logo">CRHISTIAN <br> CONGREGATION</span>
         </div>
         <!-------------------------------------------Icon bar------------------------------------------------->  
-        <div class="icon-bar">
+        <nav class="icon-bar">
           <div id="group-icon-menu">                 
             <ul>
               
-              <li onclick="" class="icon-menu"><i class="fas fa-search"></i></li>
+              <li onclick="LoadIconMenu()" class="icon-menu"><i class="fas fa-search"></i></li>
               
-              <li onclick="" class="icon-menu"><i class="fas fa-globe-americas"></i>
+              <li onclick="LoadIconMenu()" class="icon-menu"><i class="fas fa-globe-americas"></i>
 
                 <ul class="icon-submenu-box">
                   <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>Country</b></li>
@@ -60,7 +60,7 @@
                 </ul>              
               </li>
 
-              <li onclick="" class="icon-menu"><i class="fas fa-keyboard"></i>
+              <li onclick="LoadIconMenu()" class="icon-menu"><i class="fas fa-keyboard"></i>
 
                 <ul class="icon-submenu-box">
                   <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>Language</b></li>
@@ -72,11 +72,11 @@
                 </ul>
               </li>
               
-              <li onclick="" class="icon-menu"><i class="fas fa-lock"></i></li>
+              <li onclick="LoadIconMenu()" id="login-page" class="icon-menu"><i class="fas fa-lock"></i></li>
 
             </ul>
           </div>
-        </div> 
+        </nav> 
 
      
       </div>
@@ -143,7 +143,10 @@
   <!------------------------------------FOOTER-------------------------->   
 
   <footer>
-    <iframe src="/src/views/main-page/footer.html" frameborder="0" scrolling="no" width="100%" height="100%"></iframe>
+    <div id="footer">
+      <h4>International Federation of Christian Congregations</h4><br>
+      All Rights Reserved ®  
+    </div>
   </footer>
 
   </body>
