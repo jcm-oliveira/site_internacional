@@ -51,6 +51,10 @@ function qualEndereco(rotine){
             case 'statistics': carregarTela("/src/views/about-us/statistics.html"); break;
             case 'our-history': carregarTela("/src/views/about-us/our-history.html"); break;
         //Our Mission
+            case 'administrative-principles': carregarTela("/src/views/our-mission/administrative-principles.html"); break;
+            case 'faith-doctrine': carregarTela("/src/views/our-mission/faith-doctrine.html"); break;
+            case 'international-conventions': carregarTela("/src/views/our-mission/international-conventions.html"); break;
+            case 'teachings': carregarTela("/src/views/our-mission/teachings.html"); break;
 
         default: alert("Esta tela ainda não foi criada..."); break;
         }
