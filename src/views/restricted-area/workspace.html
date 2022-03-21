@@ -9,7 +9,7 @@
       <link rel="stylesheet" href="/src/css/main-page/main-page.css">
       <link rel="stylesheet" href="/src/css/restricted-area/menu-desktop.css">
       <link rel="stylesheet" href="/src/css/restricted-area/menu-mobile.css">
-      <link rel="stylesheet" href="/src/css/restricted-area/icon-menu-ra.css">
+      <link rel="stylesheet" href="/src/css/main-page/icon-menu.css">
       <link rel="stylesheet" href="/src/css/main-page/header.css">
       <link rel="stylesheet" href="/src/css/main-page/footer.css">
       <link rel="stylesheet" href="/src/css/restricted-area/workspace.css">
@@ -30,71 +30,70 @@
 
       <div id="logo-bar">
 
-        <!----------------------------------------Title Page------------------------------------------------>  
+        <!----------------------------------------Title Page---------------------------------------------->  
         <div id="title-page">
           <span id="text-title-page">INTERNATIONAL FEDERATION <br> OF CRHISTIAN CONGREGATIONS</span>
         </div>
-        <!----------------------------------------Header-logo------------------------------------------------>  
+        <!----------------------------------------Header-logo--------------------------------------------->  
         <div id="header-logo">
           <img src="/src/img/logo-international.png" alt="logo-internacional" width="200">
           <span id="text-logo">CRHISTIAN <br> CONGREGATION</span>
         </div>
-        <!-------------------------------------------Logout area--------------------------------------------->  
-        <div class="logout-area"> 
-            <button class="logout-button" type="button"><a href="/src/views/restricted-area/workspace.html">Logout &nbsp <i class="fas fa-sign-out-alt" id="logout-icon"></i></a></button>
-        </div>
-   
+        <!-------------------------------------------Icon bar--------------------------------------------->  
+
+        <nav class="icon-bar">
+            <div id="restricted-area-iconbar">              
+               <ul>                           
+                 <li onclick="" class="icon-menu"><i class="fas fa-globe-americas"></i>
+                   <ul class="icon-submenu-box">
+                     <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>Country</b></li>
+                     <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-EUA.jpg" class="img-icon-flag"> EUA</li>   
+                   </ul>              
+                 </li>
+    
+                 <li onclick="" class="icon-menu"><i class="fas fa-keyboard"></i>
+                   <ul class="icon-submenu-box">
+                     <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>Language</b></li>
+                     <li onclick="" class="item-icon-menu">English</li>
+                     <li onclick="" class="item-icon-menu">Spanish</li>
+                     <li onclick="" class="item-icon-menu">French</li>
+                     <li onclick="" class="item-icon-menu">Italian</li>
+                     <li onclick="" class="item-icon-menu">Portuguese</li>    
+                   </ul>
+                 </li>
+    
+                 <li onclick="" class="icon-menu"><i class="fas fa-cog"></i></li>
+    
+                 <li onclick="" class="icon-menu"><i class="fas fa-lock"></i>
+                    <ul class="icon-submenu-box">
+                      <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>logged-information</b></li>
+                      <li onclick="" class="item-icon-menu"><b>Name:</b>Simon Peter</li>
+                      <li onclick="" class="item-icon-menu"><b>User:</b>simon.peter</li>
+                      <li onclick="" class="item-icon-menu"><b>Function:</b>Secretary</li>
+                      <li onclick="" class="item-icon-menu"><b>Country:</b>EUA</li>
+                      <li onclick="" class="item-icon-menu"><b>Language:</b>English</li>    
+                    </ul>
+                  </li>
+    
+               </ul>
+             </div>
+           </nav>   
       </div>
   </div>
-  <!----------------------------------ICON BAR RESTRITED AREA----------------------------------------->  
+  <!----------------------------------SUPERIOR BAR - RESTRICTED AREA----------------------------------------->  
   <div class="superior-bar" >
     
-      <nav class="icon-bar">
-        <div id="restricted-area-iconbar">              
-           <ul>                           
-             <li onclick="" class="icon-menu"><i class="fas fa-globe-americas"></i>
-               <ul class="icon-submenu-box">
-                 <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>Country</b></li>
-                 <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-EUA.jpg" class="img-icon-flag"> EUA</li>   
-               </ul>              
-             </li>
+        <div>
+            <spam class="restricted-area-text">Restricted Area </spam>
+        </div>
 
-             <li onclick="" class="icon-menu"><i class="fas fa-keyboard"></i>
-               <ul class="icon-submenu-box">
-                 <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>Language</b></li>
-                 <li onclick="" class="item-icon-menu">English</li>
-                 <li onclick="" class="item-icon-menu">Spanish</li>
-                 <li onclick="" class="item-icon-menu">French</li>
-                 <li onclick="" class="item-icon-menu">Italian</li>
-                 <li onclick="" class="item-icon-menu">Portuguese</li>    
-               </ul>
-             </li>
+        <div>
+            <spam class="breadcrumb">Workspace > Announcements</spam>
+        </div>
 
-             <li onclick="" class="icon-menu"><i class="fas fa-cog"></i></li>
-
-             <li onclick="" class="icon-menu"><i class="fas fa-lock"></i>
-                <ul class="icon-submenu-box">
-                  <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>logged-information</b></li>
-                  <li onclick="" class="item-icon-menu"><b>Name:</b>Simon Peter</li>
-                  <li onclick="" class="item-icon-menu"><b>User:</b>simon.peter</li>
-                  <li onclick="" class="item-icon-menu"><b>Function:</b>Secretary</li>
-                  <li onclick="" class="item-icon-menu"><b>Country:</b>EUA</li>
-                  <li onclick="" class="item-icon-menu"><b>Language:</b>English</li>    
-                </ul>
-              </li>
-
-           </ul>
-         </div>
-       </nav>
-
-       <div>
-        <spam class="breadcrumb">Workspace > Announcements</spam>
-      </div>
-
-       <div>
-        <spam class="restricted-area-text">Restricted Area </spam>
-       </div>
-
+        <div class="logout-area"> 
+            <button class="logout-button" type="button"><a href="/src/views/restricted-area/login-page.html">Logout &nbsp <i class="fas fa-sign-out-alt" id="logout-icon"></i></a></button>
+        </div>
        
     </div>
  <!----------------------------------WORKSPACE (MENU + SCREEM PAGE)------------------------------------------>

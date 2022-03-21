@@ -40,10 +40,6 @@ li.item-icon-menu {
 .icon-submenu-box{
     border: 1px solid rgb(176, 179, 179);
     background-color: white;
-    /* display: flex;
-    position: relative;
-    right: 10px;
-    flex-direction: column;*/
 } 
 
 a {
