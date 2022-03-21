@@ -12,6 +12,7 @@
       <link rel="stylesheet" href="/src/css/main-page/icon-menu.css">
       <link rel="stylesheet" href="/src/css/main-page/header.css">
       <link rel="stylesheet" href="/src/css/main-page/footer.css">
+      <link rel="stylesheet" href="/src/css/restricted-area/workspace.css">
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,23 +41,15 @@
         </div>
         <!-------------------------------------------Icon bar------------------------------------------------->  
         <nav class="icon-bar">
-          <div id="group-icon-menu">                 
+
+         <div id="restricted-area-iconbar">              
             <ul>
-              
-              <li onclick="" class="icon-menu"><i class="fas fa-search"></i></li>
-              
+                            
               <li onclick="" class="icon-menu"><i class="fas fa-globe-americas"></i>
 
                 <ul class="icon-submenu-box">
                   <li onclick="" class="item-icon-menu" style="background-color:rgb(227, 229, 231)"><b>Country</b></li>
-                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-Argentina.jpg" class="img-icon-flag"> Argentina</li>
-                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-Brazil.jpg" class="img-icon-flag"> Brazil</li>
-                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-EUA.jpg" class="img-icon-flag"> EUA</li>
-                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-France.jpg" class="img-icon-flag"> France</li>
-                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-Italy.jpg" class="img-icon-flag"> Italy</li>
-                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-Japan.jpg" class="img-icon-flag"> Japan</li>
-                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-Portugal.jpg" class="img-icon-flag"> Portugal</li>
-                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-Spain.jpg" class="img-icon-flag"> Spain</li>    
+                  <li onclick="" class="item-icon-menu"><img src="/src/img/Flags-icon/Flag-EUA.jpg" class="img-icon-flag"> EUA</li>   
                 </ul>              
               </li>
 
@@ -71,12 +64,17 @@
                   <li onclick="" class="item-icon-menu">Portuguese</li>    
                 </ul>
               </li>
-              
-              <li class="icon-menu"><a href="/src/views/restricted-area/login-page.html" target="_blank"><i class="fas fa-lock"></i></a></li>
-
             </ul>
           </div>
-        </nav> 
+
+        </nav>
+
+        <div class="logged-information">    
+            <span><i class="fas fa-lock"></i> Restricted Area</span>
+            <span> User: José.Silva</span>
+            <span>Country: EUA</span>
+            <span>Language: English</span>
+        </div>
 
      
       </div>
