@@ -1,4 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
 .logged-information {
-    display: block;
+    display: grid;
+    text-align: right;
+    align-items: right;
+    justify-content: flex-end;
+    width: 100%;
+    color: #033D60;
+}
+
+span.user-information {
+    margin: 0px;
+    font-family: verdana;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.workspace-page {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "menu-ra screem-page";
+    grid-area: header;
+    flex-wrap: wrap;
+}
+
+.superior-bar {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "menu-ra screem-page";
+    grid-area: header;
+    background-color: #CDD4DC;
+    padding: 2px;
+    color: #033D60;
+
+}
+
+.restricted-area-text {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: bold;    
+}
+
+.logout-area {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+}
+
+.logout-button {
+    width: 150px;
+    padding: 10px;
+    margin: 20px 5px 5px 5px;;
+    border: 0px;
+    border-radius: 4px;    
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #FFCC66;
+}
+
+a{
+    color: #201E1E;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#logout-icon {
+    color: #201E1E;
+    font-size: 18px;
+}
+
+.breadcrumb{
+    font-style: italic;
+}
+
+#footer-ra {
+    background-color:rgb(205,212,220);
+    height: 100px;
+    text-align:center;
+    padding: 30px;
+    border-top: 5px solid rgb(3,61,96);
+    color:rgb(3,61,96);
 }
 

@@ -43,10 +43,13 @@ textarea {
     font-size: 15px;
     cursor: pointer;
     background-color: #033D60;
-    color: #ffffff;
 }
 a{
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 i {

@@ -1,0 +1,28 @@
+/*------------*/
+/*DESKTOP MENU*/
+/*------------*/
+
+.menu-ra {
+   width: 100%;
+   background-color:#033D60;
+   font-size: 14px;
+}
+
+.menu-ra ul  {
+    list-style: none; 
+    position: relative;
+    }
+
+.submenu-ra{    
+    background-color: rgb(231, 229, 229);
+}
+
+li a{
+    padding: 10px 5px;
+    color: #ffffff;   
+}
+
+li.item-submenu-ra {
+    padding: 8px 10px;
+    border: 0.2px solid #c5c3c3;
+}
