@@ -3,7 +3,7 @@
 //DASHBOARD CARREGADO AUTOMATICAMENTE QUANDO O USUÁRIO LOGA NO SISTEMA
 //---------------------------------------------------------------------
 
-qualEndereco("country-insert")
+qualEndereco("city-search")
 
 //-----------------------------------------------------------
 //QUANDO UM BOTÃO É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO BOTÃO
@@ -43,6 +43,12 @@ function qualEndereco(routine){
         //Configuration
         case 'country-search': carregarTela("/src/views/restricted-area/configuration/country-search.html"); break;
         case 'country-insert': carregarTela("/src/views/restricted-area/configuration/country-insert.html"); break;
+        case 'region-search': carregarTela("/src/views/restricted-area/configuration/region-search.html"); break;
+        case 'region-insert': carregarTela("/src/views/restricted-area/configuration/region-insert.html"); break;
+        case 'state-search': carregarTela("/src/views/restricted-area/configuration/state-search.html"); break;
+        case 'state-insert': carregarTela("/src/views/restricted-area/configuration/state-insert.html"); break;
+        case 'city-search': carregarTela("/src/views/restricted-area/configuration/city-search.html"); break;
+        case 'city-insert': carregarTela("/src/views/restricted-area/configuration/city-insert.html"); break;
 
         default: alert("Esta tela ainda não foi criada..."); break;
         }
