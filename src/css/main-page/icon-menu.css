@@ -37,6 +37,14 @@ li.item-icon-menu {
     width: auto;
 }
 
+/* li.icon-menu i {
+    display: flex;
+    position: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
 .icon-submenu-box{
     border: 1px solid rgb(176, 179, 179);
     background-color: white;

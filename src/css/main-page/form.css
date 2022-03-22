@@ -41,13 +41,16 @@
     background-color: #CDD4DC;
 }
 
-/*----------------------*/
-/*------ITEM OPTION-----*/
-/*----------------------*/
+/*-------------------------------*/
+/*------OPTION BUTTONS ITENS-----*/
+/*-------------------------------*/
 
 .item-option {
-    /* border: none; */
-    width: 80px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
 }
 
 .item-option i {
