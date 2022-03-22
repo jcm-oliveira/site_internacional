@@ -15,6 +15,7 @@
 
 .submenu-ra{    
     background-color: rgb(231, 229, 229);
+    cursor: pointer;
 }
 
 li a{

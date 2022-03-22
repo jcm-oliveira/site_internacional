@@ -32,7 +32,7 @@ span.user-information {
 .superior-bar {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 7fr;
     grid-template-rows: 1fr;
     grid-template-areas: "menu-ra screem-page";
     grid-area: header;
@@ -65,6 +65,10 @@ span.user-information {
     font-size: 15px;
     cursor: pointer;
     background-color: #FFCC66;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 a{

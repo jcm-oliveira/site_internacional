@@ -34,9 +34,9 @@ function LoadMenuOption(){
 //QUANDO UM ICONE É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO MENU
 //-----------------------------------------------------------
 
-function LoadIconMenu(){
+function LoadMenuRA(){
     
-    document.getElementById('group-icon-menu').addEventListener('click', function(e){
+    document.getElementById('group-menu-ra').addEventListener('click', function(e){
         
     qualEndereco(e.target.id)}, {once:true})
     
@@ -48,9 +48,11 @@ function LoadIconMenu(){
 
 function qualEndereco(rotine){
 
-    
+    console.log(rotine)
    
     switch(rotine){
+
+        //PUBLIC AREA
         case 'home': carregarTela("/src/views/public-pages/home.html"); break;
         case 'associates': carregarTela("/src/views/public-pages/associates.html"); break;
         case 'worship-services': carregarTela("/src/views/public-pages/worship-services.html"); break;
@@ -65,9 +67,11 @@ function qualEndereco(rotine){
             case 'administrative-principles': carregarTela("/src/views/public-pages/our-mission/administrative-principles.html"); break;
             case 'faith-doctrine': carregarTela("/src/views/public-pages/our-mission/faith-doctrine.html"); break;
             case 'international-conventions': carregarTela("/src/views/public-pages/our-mission/international-conventions.html"); break;
-            case 'teachings': carregarTela("/src/views/public-pages/our-mission/teachings.html"); break;
-
-        case 'login-page': carregarTela("/src/views/public-pages/login-page.html"); break;
+            case 'teachings': carregarTela("/src/views/public-pages/our-mission/teachings.html"); break;        
+        
+        //RESTRICTED AREA
+        //Configuration
+        case 'country': carregarTela("/src/views/restricted-area/configuration/country.html"); break;
 
         default: alert("Esta tela ainda não foi criada..."); break;
         }

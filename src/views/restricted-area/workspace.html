@@ -87,10 +87,6 @@
             <spam class="restricted-area-text">Restricted Area </spam>
         </div>
 
-        <div>
-            <spam class="breadcrumb">Workspace > Announcements</spam>
-        </div>
-
         <div class="logout-area"> 
             <button class="logout-button" type="button"><a href="/src/views/restricted-area/login-page.html">Logout &nbsp <i class="fas fa-sign-out-alt" id="logout-icon"></i></a></button>
         </div>
@@ -106,11 +102,12 @@
       <label for="bt_menu">&#9776;</label>
 
   <!----------------------------------------DESKTOP MENU------------------------------------------> 
-  <nav class="menu-ra">            
+  <nav class="menu-ra">
+    <div id="group-menu-ra">        
         <ul>
             <li><a href="#">Workspace</a>
                 <ul class="submenu-ra">
-                  <li onclick="LoadMenuOption()" id="administrators" class="item-submenu-ra">Announcements</li>
+                  <li onclick="LoadMenuRA()" id="administrators" class="item-submenu-ra">Announcements</li>
                   <li onclick="LoadMenuOption()" id="elders" class="item-submenu-ra">Calendar</li>
                   <li onclick="LoadMenuOption()" id="houses-of-pray" class="item-submenu-ra">Institutional Documents</li>  
                 </ul>
@@ -129,7 +126,7 @@
 
             <li><a href="#">Configuration</a>
                 <ul class="submenu-ra">
-                  <li onclick="LoadMenuOption()" id="" class="item-submenu-ra">Country</li>
+                  <li onclick="LoadMenuRA()" id="" class="item-submenu-ra">Country</li>
                   <li onclick="LoadMenuOption()" id="" class="item-submenu-ra">Region</li>
                   <li onclick="LoadMenuOption()" id="" class="item-submenu-ra">State</li>
                   <li onclick="LoadMenuOption()" id="" class="item-submenu-ra">City</li>
@@ -141,13 +138,13 @@
               <ul class="submenu-ra">
                 <li onclick="LoadMenuOption()" id="" class="item-submenu-ra">Standard Pages</li>
                 <li onclick="LoadMenuOption()" id="" class="item-submenu-ra">System Menus</li>
-                <li onclick="LoadMenuOption()" id="" class="item-submenu-ra">Country Informations</li>
+                <li onclick="LoadMenuOption()" id="country" class="item-submenu-ra">Country Informations</li>
               </ul>
             </li>
-
         </ul>
-    </nav> 
-  
+    </div>
+  </nav> 
+
   <!------------------------------------ROUTINES CALL--------------------------> 
 
   <main>
