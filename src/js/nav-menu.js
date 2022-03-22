@@ -37,7 +37,7 @@ function LoadMenuOption(){
 function LoadMenuRA(){
     
     document.getElementById('group-menu-ra').addEventListener('click', function(e){
-        
+    
     qualEndereco(e.target.id)}, {once:true})
     
 }
