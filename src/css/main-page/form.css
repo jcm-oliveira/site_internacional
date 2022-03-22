@@ -1,5 +1,64 @@
 
 /*----------------------*/
+/*ROTINE TITLE*/
+/*----------------------*/
+
+.routine-title {
+    display:flex;
+    padding: 10px 20px;
+    color: rgb(3,61,96);
+    font-size: 22px;
+}
+
+/*----------------------*/
+/*ROTINE TABLE*/
+/*----------------------*/
+
+.routine-table {
+    display:flex;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+/*----------------------*/
+/*-----ROTINE TABLE-----*/
+/*----------------------*/
+
+.search-table {
+    width:100%; 
+    text-align: left;
+    font-size: 14px;
+}
+
+.search-table table, th, td {
+    border: 1px solid #A5A5A5;
+    height:30px;
+    padding-left: 5px;
+    border-collapse: collapse;
+}
+
+.search-table th {
+    background-color: #CDD4DC;
+}
+
+/*----------------------*/
+/*------ITEM OPTION-----*/
+/*----------------------*/
+
+.item-option {
+    /* border: none; */
+    width: 80px;
+}
+
+.item-option i {
+    padding: 0px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/*----------------------*/
 /*AGRUPAMENTO DOS CAMPOS*/
 /*----------------------*/
 

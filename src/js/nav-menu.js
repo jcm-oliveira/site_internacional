@@ -5,18 +5,6 @@
 
 qualEndereco("home")
 
-//-----------------------------------------------------------
-//QUANDO UM BOTÃO É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO BOTÃO
-//-----------------------------------------------------------
-
-function LoadButtonRoutine(){
-    
-    document.getElementById('button-activated').addEventListener('click', function(e) {
-
-    qualEndereco(e.target.id)
-
-    }) 
-}
 
 //-----------------------------------------------------------
 //QUANDO UM MENU É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO MENU
@@ -30,27 +18,15 @@ function LoadMenuOption(){
     
 }
 
-//-----------------------------------------------------------
-//QUANDO UM ICONE É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO MENU
-//-----------------------------------------------------------
-
-function LoadMenuRA(){
-    
-    document.getElementById('group-menu-ra').addEventListener('click', function(e){
-    
-    qualEndereco(e.target.id)}, {once:true})
-    
-}
-
 //-------------------------------------------------------------------------------------------------
-//DE ACORDO COM O ID CAPTURADO NA FUNÇÃO "CarregarRotina" ATRIBUI O ENDEREÇO DA PÁGINA A SER ABERTA
+//DE ACORDO COM O ID CAPTURADO NA FUNÇÃO "LoadMenuOption" ATRIBUI O ENDEREÇO DA PÁGINA A SER ABERTA
 //-------------------------------------------------------------------------------------------------
 
-function qualEndereco(rotine){
+function qualEndereco(routine){
 
-    console.log(rotine)
+    console.log(routine)
    
-    switch(rotine){
+    switch(routine){
 
         //PUBLIC AREA
         case 'home': carregarTela("/src/views/public-pages/home.html"); break;
@@ -69,13 +45,9 @@ function qualEndereco(rotine){
             case 'international-conventions': carregarTela("/src/views/public-pages/our-mission/international-conventions.html"); break;
             case 'teachings': carregarTela("/src/views/public-pages/our-mission/teachings.html"); break;        
         
-        //RESTRICTED AREA
-        //Configuration
-        case 'country': carregarTela("/src/views/restricted-area/configuration/country.html"); break;
-
         default: alert("Esta tela ainda não foi criada..."); break;
         }
-        console.log(rotine)
+        console.log(routine)
 }
 
 //-------------------------------------------------------

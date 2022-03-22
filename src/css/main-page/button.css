@@ -1,8 +1,13 @@
-button {
+
+/*-------------------------------*/
+/*--------ROUTINE HEADER---------*/
+/*-------------------------------*/
+
+.routine-header button {
     display: inline;
-    width: 25%;
     padding: 10px;
-    margin: 20px 10px;
+    height: 45px;
+    margin: 10px 05px 10px 0px;
     border: 0px;
     border-radius: 4px;    
     font-size: 15px;
@@ -10,25 +15,57 @@ button {
     cursor: pointer;    
 }
 
-/*----------*/
-/*BAR BUTTON*/
-/*----------*/
+div.routine-header {
+    margin: 0px;
+    padding: 0px 20px;
+    text-align: left;
+    border-bottom: 1px solid #d1d0d0;
+}
 
-div.BarButton {
+.routine-header button {
+    width: 50px;
+    background-color: #CDD4DC;
+    color: #ffffff;
+}
+
+.routine-header button:hover {
+    background-color: #9ea5ac;
+ }
+
+
+/*--------------------------------*/
+/*--------ROUTINE FOOTER----------*/
+/*--------------------------------*/
+.routine-footer button {
+    display: inline;
+    padding: 10px;
+    height: 40px;
+    margin: 10px 5px 10px 5px;
+    border: 0px;
+    border-radius: 4px;    
+    font-size: 15px;
+    transition: background-color .2s;
+    cursor: pointer;    
+}
+
+div.routine-footer {
     background-color: #e9e7e7;
     margin: 0px;
     padding: 10px 0px 10px 0px;
     text-align: center;
     border-top: 1px solid #d1d0d0;
+    height:80px;
 }
 
+
 /*-----------*/
-/*SAVE BUTTON*/
+/*Save Button*/
 /*-----------*/
 
 button.SaveButton {
     background-color: #35a16b;
     color: #ffffff;
+    width: 150px;
 }
 
 button.SaveButton:hover {
@@ -36,27 +73,16 @@ button.SaveButton:hover {
 }
 
 /*-------------*/
-/*CANCEL BUTTON*/
+/*Cancel Button*/
 /*-------------*/
 
 button.CancelButton {
     background-color: #afb1b0;
     color: #030303;
+    width: 150px;
 }
 
 button.CancelButton:hover {
     background-color: #818181;
 }
 
-/*-------------*/
-/*INSERT BUTTON*/
-/*-------------*/
-
-button.InsertButton {
-    background-color: #35a16b;
-    color: #ffffff;
-}
-
-button.InsertButton:hover {
-    background-color: #1c5739;
-}

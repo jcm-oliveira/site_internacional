@@ -8,23 +8,35 @@ STANDARD CONFIGURATIONS
     font-family: verdana;
 }
 
+
 h1 {
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
     color: rgb(3,61,96);
     font-size: 22px;
     text-align: center;
 }
 
 h2 {
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
     color: rgb(3,61,96);
     font-size: 18px;
     text-align: center;
 }
 
 p {
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
     color: rgb(32,30,30);
     font-size: 18px;
     text-align: justify;
+}
+
+.breadcrumb{
+    display:flex;
+    font-style: italic;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+table {
+    border-collapse: collapse;
 }
