@@ -22,6 +22,14 @@
     font-size: 22px;
 }
 
+.routine-subtitle {
+    display:flex;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    color: rgb(3,61,96);
+    font-size: 18px;
+}
+
 /*----------------------*/
 /*ROTINE TABLE*/
 /*----------------------*/
@@ -85,6 +93,7 @@ fieldset.flex {
     display: flex;
     position: relative;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 /*--------------------------*/
@@ -124,6 +133,12 @@ Tipos de caixas de inputs:
 /*-------------------------*/
 /*TAMANHO DA CAIXA NA LINHA*/
 /*-------------------------*/
+
+div.VerySmallInput {
+    width: 11,5%;
+    min-width: 200px;
+    margin-top: 10px;   
+}
 
 div.SmallInput {
     width: 24%;

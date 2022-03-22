@@ -3,7 +3,7 @@
 //DASHBOARD CARREGADO AUTOMATICAMENTE QUANDO O USUÁRIO LOGA NO SISTEMA
 //---------------------------------------------------------------------
 
-qualEndereco("city-insert")
+qualEndereco("associate-insert")
 
 //-----------------------------------------------------------
 //QUANDO UM BOTÃO É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO BOTÃO
@@ -49,6 +49,8 @@ function qualEndereco(routine){
         case 'state-insert': carregarTela("/src/views/restricted-area/configuration/state-insert.html"); break;
         case 'city-search': carregarTela("/src/views/restricted-area/configuration/city-search.html"); break;
         case 'city-insert': carregarTela("/src/views/restricted-area/configuration/city-insert.html"); break;
+        case 'associate-search': carregarTela("/src/views/restricted-area/configuration/associate-search.html"); break;
+        case 'associate-insert': carregarTela("/src/views/restricted-area/configuration/associate-insert.html"); break;
 
         default: alert("Esta tela ainda não foi criada..."); break;
         }
