@@ -1,11 +1,23 @@
 
+
 /*----------------------*/
-/*ROTINE TITLE*/
+/*-----ROTINE FORM------*/
+/*----------------------*/
+.routine-form {
+    display:flex;
+    padding: 4px 20px;
+    margin: 4px 0px;
+}
+
+
+/*----------------------*/
+/*----ROTINE TITLE------*/
 /*----------------------*/
 
 .routine-title {
     display:flex;
     padding: 10px 20px;
+    margin: 10px 0px;
     color: rgb(3,61,96);
     font-size: 22px;
 }
@@ -16,13 +28,8 @@
 
 .routine-table {
     display:flex;
-    padding: 10px 20px;
-    margin: 20px 0px;
+    padding: 10px 20px;    
 }
-
-/*----------------------*/
-/*-----ROTINE TABLE-----*/
-/*----------------------*/
 
 .search-table {
     width:100%; 
@@ -59,8 +66,6 @@
     cursor: pointer;
 }
 
-
-
 /*----------------------*/
 /*AGRUPAMENTO DOS CAMPOS*/
 /*----------------------*/
@@ -96,12 +101,14 @@ label {
 }
 
 input {
-    padding: 6px;
+    padding: 0px 6px;
     margin: 1px 5px 5px 5px;
     box-sizing: border-box;
     border: 1px solid #a8a7a7;
     border-radius: 4px;
-    width: 100%;    
+    width: 100%;
+    height: 34px;
+    font-size: 16px;  
 }
 
 textarea {
@@ -110,7 +117,8 @@ textarea {
     box-sizing: border-box;
     border: 1px solid #a8a7a7;
     border-radius: 4px;
-    width: 100%;  
+    width: 100%;
+    font-size: 18px; 
 }
 
 /* -------------------------------------------------

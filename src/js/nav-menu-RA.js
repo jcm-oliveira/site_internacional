@@ -3,7 +3,7 @@
 //DASHBOARD CARREGADO AUTOMATICAMENTE QUANDO O USUÁRIO LOGA NO SISTEMA
 //---------------------------------------------------------------------
 
-qualEndereco("announcements")
+qualEndereco("country-insert")
 
 //-----------------------------------------------------------
 //QUANDO UM BOTÃO É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO BOTÃO
@@ -13,9 +13,8 @@ function LoadButtonRoutine(){
     
     document.getElementById('button-activated').addEventListener('click', function(e) {
 
-    qualEndereco(e.target.id)
+    qualEndereco(e.target.id)}, {once:true})
 
-    }) 
 }
 
 //-----------------------------------------------------------
@@ -43,7 +42,7 @@ function qualEndereco(routine){
         //RESTRICTED AREA
         //Configuration
         case 'country-search': carregarTela("/src/views/restricted-area/configuration/country-search.html"); break;
-        case 'country-insert': carregarTela("/src/views/restricted-area/configuration/country-search.html"); break;
+        case 'country-insert': carregarTela("/src/views/restricted-area/configuration/country-insert.html"); break;
 
         default: alert("Esta tela ainda não foi criada..."); break;
         }
