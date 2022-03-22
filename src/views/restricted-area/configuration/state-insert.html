@@ -21,30 +21,31 @@
 <body>
     <div class="screen-page">
         <div>
-            <spam class="breadcrumb">Configuration > Country > Insert</spam>
+            <spam class="breadcrumb">Configuration > State > Insert</spam>
         </div>
 
         <div class="routine-header" id="button-activated">
-            <button class="button" type="button" onclick="LoadButtonRoutine()" id="country-search"><i class="fas fa-arrow-left"></i></button>
+            <button class="button" type="button" onclick="LoadButtonRoutine()" id="state-search"><i class="fas fa-arrow-left"></i></button>
             <div id="page-content"></div>
         </div>
 
         <div>
-            <spam class="routine-title">New Country</spam>
+            <spam class="routine-title">New State</spam>
         </div>
 
         <div class="routine-form">
+
             <fieldset class="flex">
                 <div class="SmallInput">
                     <label for="codigo">Code</label><br>
-                    <input class="SmallInput" id="code" type="text" value="004" disabled>
+                    <input class="SmallInput" id="code" type="text" value="008" disabled>
                 </div>
 
                 <div class="spaceBetweenField"></div>
-                
+           
                 <div class="LargeInput">
                     <label for="nome">Continent</label><br>
-                    <select name="Continent" class="LargeInput" autofocus>
+                    <select name="Continent" autofocus>
                         <option value=""data-default disabled selected></option>                
                         <option value="Africa">Africa</option>
                         <option value="Asia">Asia</option>
@@ -55,16 +56,43 @@
                     </select>
                 </div>
 
+                <div class="spaceBetweenField"></div>
+
+                <div class="MediumInput">
+                    <label for="nome">Country</label><br>
+                    <select name="Country" autofocus>
+                        <option value=""data-default disabled selected></option>                
+                        <option value="Brasil">Brasil</option>
+                        <option value="United States of America">United States of America</option>
+                        <option value="	España">España</option>
+                    </select>
+                </div>
+
+                <div class="spaceBetweenField"></div>
+
+                <div class="MediumInput">
+                    <label for="nome">Region</label><br>
+                    <select name="Continent" autofocus>
+                        <option value=""data-default disabled selected></option>                
+                        <option value="Africa">Norte</option>
+                        <option value="Asia">Nordeste</option>
+                        <option value="Europe">Sul</option>
+                        <option value="North America">West</option>
+                        <option value="Oceania">North East</option>
+                        <option value="South America">Sudeste</option>
+                    </select>
+                </div>
+
                 <div class="LargeInput">
-                    <label for="nome">Country Name</label><br>
-                    <input class="LargeInput"id="nome" type="text" required >
+                    <label for="nome">State Name</label><br>
+                    <input type="text" required >
                 </div>
 
                 <div class="spaceBetweenField"></div>
 
                 <div class="SmallInput">
                     <label for="nome">Acronym</label><br>
-                    <input class="SmallInput"id="acronym" type="text" required>
+                    <input type="text" required>
                 </div>
 
             </fieldset>        

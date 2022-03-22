@@ -3,7 +3,7 @@
 /*-----ROTINE FORM------*/
 /*----------------------*/
 .routine-form {
-    display:flex;
+    display:block;
     position: relative;
     padding: 4px 20px;
     margin: 4px 0px;
@@ -143,7 +143,7 @@ div.LargeInput {
     margin-top: 10px;    
 }
 
-div.ExtralargeInput {
+div.ExtraLargeInput {
     width: 99%;
     min-width: 200px;
     margin-top: 10px;    
@@ -168,12 +168,13 @@ div.FileInput{
 }
 
 /*-------------------------*/
-/*TAMANHO DO CAMPO NA CAIXA*/
+/*TAMANHO DO CAMPO NA CAIXA (DIV)*/
 /*-------------------------*/
 input, select, textarea{
     margin-top: 4px;
+    width: 100%;
 }
-
+/* 
 input.SmallInput, select.SmallInput {
     width: 100%;
 }
@@ -206,4 +207,4 @@ div.rotina {
     text-align: center;
     font-size: 15px;
     margin: 30px;
-} */
+} */ */
