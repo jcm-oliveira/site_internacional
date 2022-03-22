@@ -36,26 +36,33 @@ div.routine-header {
 /*--------------------------------*/
 /*--------ROUTINE FOOTER----------*/
 /*--------------------------------*/
+div.routine-footer {
+    display:flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #e9e7e7;
+    margin: 18px 0px;
+    padding: 8px 0px;
+    text-align: center;
+    border-top: 1px solid #d1d0d0;
+    height:80px;
+}
+
 .routine-footer button {
     display: inline;
-    padding: 10px;
+    padding: 8px;
+    border: 8px;
     height: 40px;
-    margin: 10px 5px 10px 5px;
-    border: 0px;
+    margin: 10px 5px 10px 5px;    
     border-radius: 4px;    
     font-size: 15px;
     transition: background-color .2s;
     cursor: pointer;    
 }
 
-div.routine-footer {
-    background-color: #e9e7e7;
-    margin: 0px;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    border-top: 1px solid #d1d0d0;
-    height:80px;
-}
+
 
 
 /*-----------*/

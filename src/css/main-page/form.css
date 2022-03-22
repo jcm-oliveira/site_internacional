@@ -1,10 +1,10 @@
 
-
 /*----------------------*/
 /*-----ROTINE FORM------*/
 /*----------------------*/
 .routine-form {
     display:flex;
+    position: relative;
     padding: 4px 20px;
     margin: 4px 0px;
 }
@@ -16,8 +16,8 @@
 
 .routine-title {
     display:flex;
-    padding: 10px 20px;
-    margin: 10px 0px;
+    padding: 8px 20px;
+    margin: 8px 0px;
     color: rgb(3,61,96);
     font-size: 22px;
 }
@@ -71,7 +71,7 @@
 /*----------------------*/
 
 fieldset {
-    margin: 5px 10px 10px 0px;
+    margin: 0px;
     padding: 0px;
     border: 0;
     width: 100%;
@@ -83,6 +83,7 @@ fieldset {
 
 fieldset.flex {
     display: flex;
+    position: relative;
     flex-wrap: wrap;
 }
 
@@ -95,30 +96,18 @@ fieldset.block {
 }
 
 label {
-    font-size: 15px;
-    margin: 1px 10px 10px 5px;
-    color: bold #000000;  
+    font-size: 15px;    
+    color: bold #000000;
 }
 
-input {
+input, select, textarea {
     padding: 0px 6px;
-    margin: 1px 5px 5px 5px;
+    /* margin: 1px 5px 5px 5px; */
     box-sizing: border-box;
     border: 1px solid #a8a7a7;
     border-radius: 4px;
-    width: 100%;
     height: 34px;
     font-size: 16px;  
-}
-
-textarea {
-    padding: 6px;
-    margin: 1px 5px 5px 5px;
-    box-sizing: border-box;
-    border: 1px solid #a8a7a7;
-    border-radius: 4px;
-    width: 100%;
-    font-size: 18px; 
 }
 
 /* -------------------------------------------------
@@ -128,68 +117,81 @@ Tipos de caixas de inputs:
     Large: 3/4 da linha
     Extralarge: 4/4 da linha
 ----------------------------------------------------*/
+.spaceBetweenField {
+    width: 1%;
+}
 
 /*-------------------------*/
 /*TAMANHO DA CAIXA NA LINHA*/
 /*-------------------------*/
 
 div.SmallInput {
-    width: 25%;
-    min-width: 200px;   
+    width: 24%;
+    min-width: 200px;
+    margin-top: 10px;   
 }
 
 div.MediumInput {
-    width: 50%;
-    min-width: 200px;    
+    width: 49%;
+    min-width: 200px;
+    margin-top: 10px;    
 }
 
 div.LargeInput {
-    width: 75%;
-    min-width: 200px;    
+    width: 74%;
+    min-width: 200px;
+    margin-top: 10px;    
 }
 
 div.ExtralargeInput {
-    width: 100%;
-    min-width: 200px;    
+    width: 99%;
+    min-width: 200px;
+    margin-top: 10px;    
 }
 
 div.DescriptionInput {
     width: 100%;
     min-width: 200px;
+    margin-top: 10px;
 }
 
 div.ColorInput{
     width: 20%;
     min-width: 200px;
+    margin-top: 10px;
 }
 
 div.FileInput{
     width: 90%;
     min-width: 200px;
+    margin-top: 10px;
 }
 
 /*-------------------------*/
 /*TAMANHO DO CAMPO NA CAIXA*/
 /*-------------------------*/
-
-input.SmallInput {
-    width: 98%;
+input, select, textarea{
+    margin-top: 4px;
 }
 
-input.MediumInput {
-    width: 98%;    
+input.SmallInput, select.SmallInput {
+    width: 100%;
 }
 
-input.LargeInput {
-    width: 98%;    
+input.MediumInput, select.MediumInput {
+    width: 100%;    
 }
 
-input.ExtralargeInput {
+input.LargeInput, select.LargeInput {
+    width: 100%;    
+}
+
+input.ExtralargeInput, select.ExtralargeInput {
     width: 100%;    
 }
 
 textarea.DescriptionInput {
-    width: 98.5%;
+    width: 100%;
 }
 
 input.ColorInput{
@@ -199,9 +201,9 @@ input.ColorInput{
 input.FileInput{
     width: 100%;
 }
-
+/* 
 div.rotina {
     text-align: center;
     font-size: 15px;
     margin: 30px;
-}
+} */
