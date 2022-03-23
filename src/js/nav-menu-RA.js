@@ -3,7 +3,7 @@
 //DASHBOARD CARREGADO AUTOMATICAMENTE QUANDO O USUÁRIO LOGA NO SISTEMA
 //---------------------------------------------------------------------
 
-qualEndereco("associate-insert")
+qualEndereco("associate-search")
 
 //-----------------------------------------------------------
 //QUANDO UM BOTÃO É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO BOTÃO

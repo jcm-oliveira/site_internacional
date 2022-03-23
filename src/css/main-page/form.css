@@ -28,6 +28,8 @@
     margin: 8px 0px;
     color: rgb(3,61,96);
     font-size: 18px;
+    border-bottom: 1px solid #CDD4DC;
+    font-weight: 100;
 }
 
 /*----------------------*/
@@ -70,7 +72,7 @@
 
 .item-option i {
     padding: 0px 5px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -105,18 +107,17 @@ fieldset.block {
 }
 
 label {
-    font-size: 15px;    
+    font-size: 14px;    
     color: bold #000000;
 }
 
 input, select, textarea {
     padding: 0px 6px;
-    /* margin: 1px 5px 5px 5px; */
     box-sizing: border-box;
     border: 1px solid #a8a7a7;
     border-radius: 4px;
     height: 34px;
-    font-size: 16px;  
+    font-size: 14px;  
 }
 
 /* -------------------------------------------------
@@ -135,8 +136,8 @@ Tipos de caixas de inputs:
 /*-------------------------*/
 
 div.VerySmallInput {
-    width: 11,5%;
-    min-width: 200px;
+    width:11.5%;
+    min-width: 100px;
     margin-top: 10px;   
 }
 
