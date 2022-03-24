@@ -7,3 +7,29 @@
     color:rgb(3,61,96);
     margin-top: 20px;
 }
+
+.footer-title {
+    display:flex;
+    position:center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: verdana;
+    padding: 20px 50px;
+    margin: 0px 50px;
+    color: rgb(3,61,96);
+    font-size: 22px;
+}
+
+.footer-subtitle {
+    display:flex;
+    position:center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: verdana;
+    padding: 18px 50px;
+    margin: 0px 50px;
+    color: rgb(3,61,96);
+    font-size: 22px;
+}

@@ -1,0 +1,36 @@
+
+select {
+    padding: 0px 6px;
+    box-sizing: border-box;
+    border: 1px solid #a8a7a7;
+    border-radius: 4px;
+    height: 34px;
+    width: 50%;
+    min-width: 300px;
+    margin-top: 10px; 
+    font-size: 16px;  
+}
+
+.country-search label {
+    font-size: 18px;    
+    color: bold #000000;
+}
+
+.country-search {
+    padding: 10px;
+    margin:10px;
+    display: block;
+    position: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.associate-fieldset{
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.associate-fieldset p {
+    padding: 5px 50px
+}

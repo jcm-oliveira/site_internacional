@@ -10,6 +10,7 @@ STANDARD CONFIGURATIONS
 
 
 h1 {
+    margin: 0px 50px;
     padding: 20px 50px;
     color: rgb(3,61,96);
     font-size: 22px;
@@ -17,16 +18,36 @@ h1 {
 }
 
 h2 {
+    margin: 0px 50px;
     padding: 20px 50px;
     color: rgb(3,61,96);
     font-size: 18px;
     text-align: center;
 }
 
+h3{ 
+    margin: 0px 50px;
+    padding: 10px 50px;
+    color: rgb(3,61,96);
+    font-size: 22px;
+    text-align: left;
+    font-family: verdana;
+    font-weight: 600;
+}
+
+h4{
+    margin: 0px 50px;
+    padding: 10px 50px;
+    color: rgb(3,61,96);
+    font-size:18px;
+    text-align: left;
+    font-family: verdana;
+}
 p {
     padding: 20px 50px;
+    margin: 0px 50px;
     color: rgb(32,30,30);
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -39,4 +60,33 @@ p {
 
 table {
     border-collapse: collapse;
+}
+
+@media(max-width: 1000px) {
+
+    h1 {
+        margin: 0px 20px;
+        padding: 20px 20px;
+    }
+    
+    h2 {
+        margin: 0px 20px;
+        padding: 20px 20px;
+    }
+    
+    h3{ 
+        margin: 0px 20px;
+        padding: 20px 20px;
+    }
+    
+    h4{
+        margin: 10px 20px;
+        padding: 0px 20px;
+
+    }
+    p {
+        padding: 20px 20px;
+        margin: 0px 20px;
+    }
+
 }
