@@ -2,7 +2,7 @@
     background-color:rgb(205,212,220);
     height: 100px;
     text-align:center;
-    padding: 30px;
+    padding: 20px;
     border-top: 5px solid rgb(3,61,96);
     color:rgb(3,61,96);
     margin-top: 20px;
@@ -15,10 +15,10 @@
     align-items: center;
     text-align: center;
     font-family: verdana;
-    padding: 20px 50px;
-    margin: 0px 50px;
+    padding: 0px 5px;
+    margin: 0px 5px;
     color: rgb(3,61,96);
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .footer-subtitle {
@@ -28,8 +28,8 @@
     align-items: center;
     text-align: center;
     font-family: verdana;
-    padding: 18px 50px;
-    margin: 0px 50px;
+    padding: 0px 5px;
+    margin: 0px 5px;
     color: rgb(3,61,96);
-    font-size: 22px;
+    font-size: 16px;
 }

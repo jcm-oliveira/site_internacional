@@ -34,3 +34,11 @@ select {
 .associate-fieldset p {
     padding: 5px 50px
 }
+
+.img-flag {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
