@@ -31,6 +31,8 @@ h3{
     color: rgb(3,61,96);
     font-size: 22px;
     text-align: left;
+    display:inline-block;
+    vertical-align: middle;
     font-family: verdana;
     font-weight: 600;
 }
