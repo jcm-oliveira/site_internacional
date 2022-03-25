@@ -13,13 +13,13 @@ select {
 
 .country-search {
     padding: 20px 10px;
-    margin:10px 50px;
+    margin:10px 100px;
     display: block;
     position: center;
     justify-content: center;
     text-align: center;
     background-color: #cdd4dc;
-    border-radius: 4px;
+    /* border-radius: 4px; */
 }
 
 .country-search label {
@@ -29,12 +29,13 @@ select {
 
 .associate-fieldset{
     display: block;
-    margin: 10px 0px;
-    padding: 10px 0px;
+    margin: 7px 0px;
+    padding: 7px 0px;
 }
 
 .associate-fieldset p {
-    padding: 5px 50px
+    padding: 5px 0px;
+    margin: 0px 0px;
 }
 
 .img-flag {
@@ -43,4 +44,49 @@ select {
     text-align: center;
     align-items: center;
     justify-content: center
+}
+
+.associate-bar-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.associate-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #033d60;
+    width: 150px;
+    height: 70px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.associate-buttons i {
+    color: white;
+    font-size: 28px;
+    padding: 3px;
+}
+
+.associate-buttons a {
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+}
+
+
+.associate-information {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "associate-details associate-map";
+    margin: 10px 100px;
+    flex-wrap: wrap;
 }
