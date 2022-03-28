@@ -25,12 +25,20 @@
 <body>
     <h1>Worship Services</h1>
 
-    <h2>Search by house of pray</h2>
+<!-- SEARCH BY HOUSE OF PRAY -->
+
+    <h2>Search by name</h2>
    
     <div id="SearchByHouseOfPray">
-        <label for="nome">Type a name of a house of pray</label><br>
+        <label for="nome">Type a name to search a house of pray</label><br>
         <input type="text" class="services-textfield">
     </div>
+    
+    <div class="service-boxButtonSearch">
+        <button class="services-search-button" type="button"><a href="">Search</a></button>
+    </div>
+
+<!-- SEARCH BY SERVICE -->
 
     <h2>Search by service</h2>
 
@@ -39,10 +47,11 @@
 <!-- SERVICE LOCALIZATION -->
 
         <div id="service-localization">
-            <div class="">
+            <label for="Localization"><b>Localization</b></label>
+            <div class="service-dropdownlist">
                 <label for="Country">Country</label><br>
                 <select name="State" autofocus>
-                    <option value="" disabled selected hidden>Brazil</option>                
+                    <option value="" disabled selected hidden>United States of America</option>                
                     <option value="Argentina"> Argentina</option>
                     <option value="France">France</option>
                     <option value="Italy">Italy</option>
@@ -53,45 +62,41 @@
                 </select>
             </div>
 
-            <div class="">
+            <div class="service-dropdownlist">
                 <label for="State">State</label><br>
                 <select name="State" autofocus>
-                    <option value="" disabled selected hidden>Brazil</option>                
-                    <option value="Argentina"> Argentina</option>
-                    <option value="France">France</option>
-                    <option value="Italy">Italy</option>
-                    <option value="Japan">Japan</option>
-                    <option value="Portugal">Portugal</option>
-                    <option value="Spain">Spain</option>
-                    <option value="United States of America">United States of America</option>
+                    <option value="" disabled selected hidden>*All*</option>                
+                    <option value="Roraima">Roraima</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="California">California</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="Catalunya">Catalunya</option>
+                    <option value="Andalucia">Andalucía</option>
                 </select>
             </div>
 
-            <div class="">
+            <div class="service-dropdownlist">
                 <label for="City">City</label><br>
                 <select name="State" autofocus>
-                    <option value="" disabled selected hidden>Brazil</option>                
-                    <option value="Argentina"> Argentina</option>
-                    <option value="France">France</option>
-                    <option value="Italy">Italy</option>
-                    <option value="Japan">Japan</option>
-                    <option value="Portugal">Portugal</option>
-                    <option value="Spain">Spain</option>
-                    <option value="United States of America">United States of America</option>
+                    <option value="" disabled selected hidden>*All*</option>                
+                    <option value="Roraimópolis">Roraimópolis</option>
+                    <option value="Salvador">Salvador</option>
+                    <option value="Itajai">Itajai</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="Ocean">Ocean</option>
+                    <option value="Sevilla">Sevilla</option>
                 </select>
             </div>
 
-            <div class="">
+            <div class="service-dropdownlist">
                 <label for="House of Pray">House of Pray</label><br>
                 <select name="State" autofocus>
-                    <option value="" disabled selected hidden>Brazil</option>                
-                    <option value="Argentina"> Argentina</option>
-                    <option value="France">France</option>
-                    <option value="Italy">Italy</option>
-                    <option value="Japan">Japan</option>
-                    <option value="Portugal">Portugal</option>
-                    <option value="Spain">Spain</option>
-                    <option value="United States of America">United States of America</option>
+                    <option value="" disabled selected hidden>*All*</option>                
+                    <option value="Argentina">Casa de Oração 001</option>
+                    <option value="France">House of Pray 002</option>
+                    <option value="Italy">Casa de Oracion 003</option>
                 </select>
             </div>
         </div>
@@ -181,9 +186,11 @@
                 <input type="checkbox">
                 <label for="Holy-Supper">Holy Supper</label>
             </div>
-        </div>
-        
+        </div>      
+    </div>
 
+    <div class="service-boxButtonSearch">
+        <button class="services-search-button" type="button"><a href="">Search</a></button>
     </div>
 </body>
 </html>
