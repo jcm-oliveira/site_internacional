@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Worship Services</title>
 
-    <link rel="stylesheet" href="/src/css/main-page.css">
-    <link rel="stylesheet" href="/src/css/nav-menu.css">
-    <link rel="stylesheet" href="/src/css/header.css">
-    <link rel="stylesheet" href="/src/css/footer.css">
+
+    <link rel="stylesheet" href="/src/css/main-page/main-page.css">
+    <link rel="stylesheet" href="/src/css/main-page/nav-menu-desktop.css">
+    <link rel="stylesheet" href="/src/css/main-page/nav-menu-mobile.css">
+    <link rel="stylesheet" href="/src/css/main-page/icon-menu.css">
+    <link rel="stylesheet" href="/src/css/main-page/header.css">
+    <link rel="stylesheet" href="/src/css/main-page/footer.css">
+    <link rel="stylesheet" href="/src/css/public-pages/worship-services.css">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +24,166 @@
 
 <body>
     <h1>Worship Services</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
 
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+    <h2>Search by house of pray</h2>
+   
+    <div id="SearchByHouseOfPray">
+        <label for="nome">Type a name of a house of pray</label><br>
+        <input type="text" class="services-textfield">
+    </div>
+
+    <h2>Search by service</h2>
+
+    <div id="SearchByService">
+
+<!-- SERVICE LOCALIZATION -->
+
+        <div id="service-localization">
+            <div class="">
+                <label for="Country">Country</label><br>
+                <select name="State" autofocus>
+                    <option value="" disabled selected hidden>Brazil</option>                
+                    <option value="Argentina"> Argentina</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United States of America">United States of America</option>
+                </select>
+            </div>
+
+            <div class="">
+                <label for="State">State</label><br>
+                <select name="State" autofocus>
+                    <option value="" disabled selected hidden>Brazil</option>                
+                    <option value="Argentina"> Argentina</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United States of America">United States of America</option>
+                </select>
+            </div>
+
+            <div class="">
+                <label for="City">City</label><br>
+                <select name="State" autofocus>
+                    <option value="" disabled selected hidden>Brazil</option>                
+                    <option value="Argentina"> Argentina</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United States of America">United States of America</option>
+                </select>
+            </div>
+
+            <div class="">
+                <label for="House of Pray">House of Pray</label><br>
+                <select name="State" autofocus>
+                    <option value="" disabled selected hidden>Brazil</option>                
+                    <option value="Argentina"> Argentina</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United States of America">United States of America</option>
+                </select>
+            </div>
+        </div>
+
+<!-- SERVICE PERIOD -->
+
+        <div id="service-period">
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="period"><b>Period</b></label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="morning">Morning</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="afternoon">Afternoon</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Evening">Evening</label>
+            </div>
+        </div>
+
+<!-- SERVICE WEEKDAY -->
+
+        <div id="service-weekdays">
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="day-of-week"><b>Day of week</b></label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Sunday">Sunday</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Monday">Monday</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Tuesday">Tuesday</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Wednesday">Wednesday</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Thursday">Thursday</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="sunday">Sunday</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Satarday">Satarday</label>
+            </div>
+        </div>
+
+<!-- SERVICE TYPE -->
+
+        <div id="service-type">
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="services"><b>Services</b></label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Regular-Service">Regular Service</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Youth & Children's Services">Youth & Children's Services</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Youth Service">Youth Service</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Baptism">Baptism</label>
+            </div>
+            <div class="service-checkbox">
+                <input type="checkbox">
+                <label for="Holy-Supper">Holy Supper</label>
+            </div>
+        </div>
+        
+
+    </div>
 </body>
 </html>

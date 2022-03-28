@@ -3,7 +3,7 @@
 //DASHBOARD CARREGADO AUTOMATICAMENTE QUANDO O USUÁRIO LOGA NO SISTEMA
 //---------------------------------------------------------------------
 
-qualEndereco("associates")
+qualEndereco("worship-services")
 
 
 //-----------------------------------------------------------

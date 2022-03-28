@@ -1,0 +1,29 @@
+
+#SearchByHouseOfPray {
+    padding: 20px 10px;
+    margin:10px 100px;
+    display: block;
+    position: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #cdd4dc;
+
+}
+
+#SearchByService {
+    padding: 20px 20px;
+    margin:10px 100px;
+    background-color: #cdd4dc;
+
+    display: grid;
+    align-items: top;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "service-localization service-period service-weekdays service-type ";
+    margin: 10px 100px;
+    flex-wrap: wrap;
+}
+
+.service-checkbox {
+    padding: 5px 0px;
+}
