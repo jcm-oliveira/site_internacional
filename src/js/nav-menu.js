@@ -3,8 +3,19 @@
 //DASHBOARD CARREGADO AUTOMATICAMENTE QUANDO O USUÁRIO LOGA NO SISTEMA
 //---------------------------------------------------------------------
 
-qualEndereco("worship-services")
+qualEndereco("associates")
 
+//-----------------------------------------------------------
+//QUANDO UM BOTÃO É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO BOTÃO
+//-----------------------------------------------------------
+
+function LoadButtonRoutine(){
+    
+    document.getElementById('button-activated').addEventListener('click', function(e) {
+
+    qualEndereco(e.target.id)}, {once:true})
+
+}
 
 //-----------------------------------------------------------
 //QUANDO UM MENU É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO MENU
@@ -30,7 +41,8 @@ function qualEndereco(routine){
 
         //PUBLIC AREA
         case 'home': carregarTela("/src/views/public-pages/home.html"); break;
-        case 'associates': carregarTela("/src/views/public-pages/associates.html"); break;
+        case 'associates': carregarTela("/src/views/public-pages/associates/associates.html"); break;
+        case 'associate': carregarTela("/src/views/public-pages/associates/associate.html"); break;
         case 'worship-services': carregarTela("/src/views/public-pages/worship-services.html"); break;
         case 'announcements': carregarTela("/src/views/public-pages/announcements.html"); break;
         case 'offers': carregarTela("/src/views/public-pages/offers.html"); break;
