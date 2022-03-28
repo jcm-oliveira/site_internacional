@@ -3,7 +3,7 @@
 //DASHBOARD CARREGADO AUTOMATICAMENTE QUANDO O USUÁRIO LOGA NO SISTEMA
 //---------------------------------------------------------------------
 
-qualEndereco("associates")
+qualEndereco("announcements")
 
 //-----------------------------------------------------------
 //QUANDO UM BOTÃO É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO BOTÃO
@@ -44,7 +44,7 @@ function qualEndereco(routine){
         case 'associates': carregarTela("/src/views/public-pages/associates/associates.html"); break;
         case 'associate': carregarTela("/src/views/public-pages/associates/associate.html"); break;
         case 'worship-services': carregarTela("/src/views/public-pages/worship-services.html"); break;
-        case 'announcements': carregarTela("/src/views/public-pages/announcements.html"); break;
+        case 'announcements': carregarTela("/src/views/public-pages/announcements/announcements.html"); break;
         case 'offers': carregarTela("/src/views/public-pages/offers.html"); break;
         //About us
             case 'the-beginning': carregarTela("/src/views/public-pages/about-us/the-beginning.html"); break;
