@@ -3,7 +3,7 @@
 //DASHBOARD CARREGADO AUTOMATICAMENTE QUANDO O USUÁRIO LOGA NO SISTEMA
 //---------------------------------------------------------------------
 
-qualEndereco("home")
+qualEndereco("offers")
 
 //-----------------------------------------------------------
 //QUANDO UM BOTÃO É ACIONADO, ESTA FUNÇÃO CAPTURA O ID DO BOTÃO
@@ -40,12 +40,15 @@ function qualEndereco(routine){
     switch(routine){
 
         //PUBLIC AREA
-        case 'home': carregarTela("/src/views/public-pages/home.html"); break;
-        case 'associates': carregarTela("/src/views/public-pages/associates/associates.html"); break;
-        case 'associate': carregarTela("/src/views/public-pages/associates/associate.html"); break;
-        case 'worship-services': carregarTela("/src/views/public-pages/worship-services.html"); break;
-        case 'announcements': carregarTela("/src/views/public-pages/announcements/announcements.html"); break;
-        case 'offers': carregarTela("/src/views/public-pages/offers.html"); break;
+            case 'home': carregarTela("/src/views/public-pages/home.html"); break;
+        //Associates
+            case 'associates': carregarTela("/src/views/public-pages/associates/associates.html"); break;
+            case 'associate': carregarTela("/src/views/public-pages/associates/associate.html"); break;
+        //Wordship services
+            case 'worship-services': carregarTela("/src/views/public-pages/worship-services/worship-services.html"); break;
+            case 'announcements': carregarTela("/src/views/public-pages/announcements/announcements.html"); break;
+        //Offers
+            case 'offers': carregarTela("/src/views/public-pages/offers/offers.html"); break;
         //About us
             case 'the-beginning': carregarTela("/src/views/public-pages/about-us/the-beginning.html"); break;
             case 'organization': carregarTela("/src/views/public-pages/about-us/organization.html"); break;
