@@ -38,6 +38,21 @@ select {
     margin: 0px 0px;
 }
 
+.offer-fieldset{
+    display: block;
+    margin: 7px 0px;
+    padding: 7px 0px;
+}
+
+.offer-fieldset p {
+    padding: 5px 0px;
+    margin: 0px 0px;
+}
+
+.offer-fieldset img {
+    margin:20px;
+}
+
 .img-flag {
     width: 45px;
     height: 30px;
