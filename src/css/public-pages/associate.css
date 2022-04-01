@@ -66,7 +66,6 @@ select {
     padding: 5px;
     margin: 10px;
     cursor: pointer;
-
 }
 
 .associate-buttons i {
@@ -151,7 +150,27 @@ select {
         padding: 0px;
     }
     .service-boxButtonSearch{
-        margin:0px 20px;
+        margin:0px 20px 20px 20px;
         padding: 0px 20px 20px 20px;
+    }
+    .associate-information {
+        display: flex;
+        margin: 10px 20px;
+        flex-wrap: wrap;
+    }
+
+    .associate-map {
+        display: block;
+        position: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+        width:100%;
+    }
+
+    .associate-buttons {
+        padding: 5px;
+        margin: 5px;
+        width: 95px;
     }
 }
