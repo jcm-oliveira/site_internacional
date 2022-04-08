@@ -107,7 +107,7 @@ select {
     flex-wrap: wrap;
 }
 
-.back-account-information {
+.bank-account-information {
     display: block;
     margin-left: 10px;
     padding-left: 20px;
@@ -145,4 +145,61 @@ select {
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+/* MOBILE DEVICES */
+
+@media(max-width: 1000px) {
+    
+    .country-search {
+        padding: 20px 10px;
+        margin:10px 20px 0px 20px;
+    }
+
+    .service-boxButtonSearch{
+        margin:0px 20px 20px 20px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .announcement-list-box {
+        margin: 20px 20px;
+    }
+
+    .announcement-list-box tr{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #A5A5A5;
+        margin:10px 0px;
+        padding-bottom: 10px;
+    }
+
+    .announcement-list-box tr th{
+        display:none;
+    }
+
+    .table-announcement-list table, td, th {
+        border-bottom: none;
+        margin:0px 10px;
+        padding: 0px;
+        height:40px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .announcement-type {
+        display:none;
+    }
+
+    .associate-information {
+        display: flex;
+        margin:10px 20px;       
+    }
+
+    .bank-account-information {
+        margin-left: 0px;
+        padding-left: 20px;
+        width: 100%;
+    }
+
+
 }
