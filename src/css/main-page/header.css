@@ -9,22 +9,10 @@ span{
     z-index: 10;
 }
 
-/*-----------------------*/
-/*HEADER ORGANIZATION*/
-/*-----------------------*/
-
-#logo-bar {    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "title-page header-logo icon-bar";
-    grid-area: header;
-    flex-wrap: wrap;
-}
-
 /*------------------------*/
 /*--------DESKTOP---------*/
 /*------------------------*/
+
 #title-page {
     display: flex;
     align-items: center;
@@ -40,23 +28,8 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 10px 20px 10px 20px;
+    padding: 30px 10px;
 }
-
-#text-logo {
-    position: absolute;
-    font-family: times, "Times New Roman",;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-#icon-bar {
-    display: flex;
-    align-items: center; 
-    justify-content:flex-end;
-}
-
-
 
 /*----------------------------------*/
 /* --------MOBILE DEVICES ----------*/
@@ -65,11 +38,7 @@ span{
 @media(max-width: 1000px) {
 
     #logo-bar {    
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 0.2fr;
-    grid-template-areas: "header";
-    grid-area: header;
+        padding: 30px 10px;
     }
 
     #title-page {

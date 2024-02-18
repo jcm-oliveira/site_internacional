@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>International Federation of Christan Congregations</title>
+
+      <link rel="stylesheet" href="/src/css/main-page/main-page.css">
+      <link rel="stylesheet" href="/src/css/main-page/nav-menu-desktop.css">
+      <link rel="stylesheet" href="/src/css/main-page/nav-menu-mobile.css">
+      <link rel="stylesheet" href="/src/css/main-page/header.css">
+      <link rel="stylesheet" href="/src/css/main-page/footer.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+  <!----------------------------------------HEADER------------------------------------------------>  
+  <div class="header">
+      <div id="logo-bar">
+          <div id="header-logo">
+             <img src="/src/img/logo-ccus-black.png" alt="logo-internacional" width="250">
+         </div>
+      </div>
+
+  <!----------------------------------------MENU MOBILE-------------------------------------------->  
+                
+      <input type="checkbox" id="bt_menu">
+      <label for="bt_menu">&#9776;</label>
+
+  <!----------------------------------------DESKTOP MENU------------------------------------------> 
+      <nav class="menu">
+          <div id="group-menu">                 
+            <ul>
+                <li onclick="LoadMenuOption()" id="home" class="item-menu">Home</li>
+                
+                <li class="menu-separator"><a>|</a></li>
+
+                <li><a href="#">About Us</a>
+                  <ul class="submenu-box">
+                    <li onclick="LoadMenuOption()" id="WhoWeAre" class="item-submenu">Who we are</li>
+                    <li onclick="LoadMenuOption()" id="ChurchHistory" class="item-submenu">Church History</li>   
+                  </ul>
+                </li>
+
+                <li class="menu-separator"><a>|</a></li>
+              
+                <li onclick="LoadMenuOption()" id="WorshipServices" class="item-menu">Worship Services</li>
+              
+                <li class="menu-separator"><a>|</a></li>
+
+                <li onclick="LoadMenuOption()" id="ContactUs" class="item-menu">Contact Us</li>
+
+              </ul>
+          </div>
+      </nav> 
+  </div>
+
+  <!------------------------------------ROUTINES CALL--------------------------> 
+
+    <main>
+      <div id="page-content"></div>           
+      <script src="/src/js/nav-menu.js"></script>
+    </main>
+
+  <!------------------------------------FOOTER-------------------------->   
+
+  <footer>
+    <div id="footer">
+      <span class="footer-title"><b>Christian Congregation in the United States</b></span><br>
+      <span class="footer-subtitle">All Rights Reserved ®</span>     
+    </div>
+  </footer>
+
+  </body>
+</html>
