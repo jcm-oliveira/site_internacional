@@ -8,6 +8,7 @@ STANDARD CONFIGURATIONS
     font-family: verdana;
 }
 
+
 h1 {
     margin: 0px 50px;
     padding: 20px 50px;
@@ -51,36 +52,6 @@ p {
     color: rgb(32,30,30);
     font-size: 16px;
     text-align: justify;
-}
-
-hr {
-    border: none;
-    height: 1px; /* Altura da linha */
-    background-color: rgb(212, 226, 235); /* Cor da linha */
-    margin: 20px 0; /* Espaçamento ao redor da linha */
-}
-
-a {
-    font-style:normal;
-}
-
-.language {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    font-size: 16px;
-    text-align: justify;
-    font-family: verdana;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-.language a {
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    color: rgb(73, 73, 73);
-    padding: 0px 10px;
 }
 
 li.btn {

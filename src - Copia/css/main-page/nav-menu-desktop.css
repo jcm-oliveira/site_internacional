@@ -1,0 +1,80 @@
+/*------------*/
+/*DESKTOP MENU*/
+/*------------*/
+
+.menu li.menu-separator {
+    margin: 0px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 2px rgb(187, 190, 190) solid;
+    border-bottom: 2px rgb(187, 190, 190) solid;
+    margin-bottom: 20px;
+    
+}
+
+.menu ul  {
+    list-style: none; 
+    position: relative;
+    }
+
+.menu ul li {
+    padding: 10px 25px 10px 25px;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+li.item-submenu {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    color: rgb(13, 34, 59);
+    cursor: pointer;
+    z-index: 0;
+    
+}
+
+.submenu-box{
+    border: 1px solid rgb(176, 179, 179);
+    background-color: white;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(13, 34, 59);
+}
+
+#group-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu li:hover {
+    background-color: rgb(227, 229, 231);
+}
+
+.menu ul ul li {
+    float: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.menu ul ul li a {
+    background-color: rgb(127, 130, 131);
+    
+}

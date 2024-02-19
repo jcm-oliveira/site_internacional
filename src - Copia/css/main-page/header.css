@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+span{
+    font-family: 'Cormorant Garamond', serif;   
+}
+
+.header {
+    z-index: 10;
+}
+
+/*------------------------*/
+/*--------DESKTOP---------*/
+/*------------------------*/
+
+#title-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    font-size: 22px;
+    color: rgb(133, 136, 136);
+}
+
+#header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+/*----------------------------------*/
+/* --------MOBILE DEVICES ----------*/
+/*----------------------------------*/
+
+@media(max-width: 1000px) {
+
+    #logo-bar {    
+        padding: 30px 10px;
+    }
+
+    #title-page {
+        justify-content: center;
+        text-align:center;
+    }
+    
+    #header-logo{
+        padding: 15px;
+    }
+    
+    #icon-bar {
+        justify-content: center;
+    }
+
+}
