@@ -24,7 +24,7 @@ function qualEndereco(routine){
     switch(routine){
 
         //PUBLIC AREA
-            case 'home': carregarTela("/src/views/home.html"); break;
+            case 'Home': carregarTela("/src/views/Home.html"); break;
         //About Us
             case 'By-Laws1996': carregarTela("/src/views/By-Laws1996.html"); break;
         //Wordship services
